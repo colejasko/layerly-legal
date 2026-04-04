@@ -57,6 +57,8 @@
 
     <h2>4. Third-Party Services</h2>
     <p><strong>WeatherAPI.com</strong> — Weather data is fetched from WeatherAPI.com. Your city name or geographic coordinates are sent to their servers. Please review their <a href="https://www.weatherapi.com/privacy.aspx">Privacy Policy</a> for details.</p>
+    <p><strong>Apple Location Services &amp; Geocoding</strong> — When you grant location permission, the App uses Apple's Core Location framework to determine your device's coordinates and Apple's Geocoding service (CLGeocoder) to resolve those coordinates into a city name. This is an intermediate step before the city or coordinates are passed to WeatherAPI.com. Apple's use of this data is governed by <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>.</p>
+    <p><strong>Apple MapKit (City Search Autocomplete)</strong> — When you type a city name for weather or travel planning, the App uses Apple's MapKit framework to provide city name suggestions. Your typed query is sent to Apple's servers to power these autocomplete results. Apple's use of this data is governed by <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>.</p>
     <!-- FIX 2: Added ProductImportService URL import disclosure -->
     <p><strong>Product URL Import (optional feature)</strong> — When you use the "From URL" feature to import a clothing item from a retailer's website, the App fetches that product page directly from the retailer (e.g. Nike, ASOS, etc.) to retrieve the item name and photo. As part of this request, your IP address will be disclosed to that retailer's servers. We do not control the privacy practices of those third-party websites. This feature is entirely optional and only triggered when you explicitly paste a URL.</p>
     <p>We do not share your wardrobe, preferences, photos, or any other personal information with any third party.</p>
@@ -65,6 +67,7 @@
     <!-- FIX 3: Added iCloud backup disclosure -->
     <p>All wardrobe items, clothing photos, preferences, and trip plans are stored locally on your device using Apple's standard iOS data storage, protected by your device's built-in security (passcode, Face ID, Touch ID). Deleting the App permanently removes all locally stored data.</p>
     <p>Wardrobe items and trip plans stored in the App's documents folder may be included in your iCloud Backup if you have iCloud Backup enabled on your device. This means this data could be restored to a new device if you reinstall the App. You can manage iCloud Backup settings in <strong>Settings → [Your Name] → iCloud → iCloud Backup</strong>.</p>
+    <p><strong>Wardrobe Backup &amp; Restore</strong> — The App includes an optional feature to export your wardrobe and outfit history as a backup file (JSON format). When you choose to export a backup, the file is saved temporarily and shared via iOS's native share sheet. Once exported, you control where that file goes (AirDrop, email, cloud storage, etc.). We do not receive copies of your backup file. You are responsible for the security of any backup file you export.</p>
 
     <h2>6. Children's Privacy</h2>
     <p>Layerly is not directed to children under the age of 13. We do not knowingly collect personal information from children under 13.</p>
@@ -74,7 +77,8 @@
         <li><strong>Location Access</strong> — Revoke at any time in Settings → Privacy &amp; Security → Location Services → Layerly. The App still works with a manually entered city.</li>
         <li><strong>Camera Access</strong> — Revoke at any time in Settings → Privacy &amp; Security → Camera → Layerly. You can still add photos from your photo library.</li>
         <li><strong>Photo Library Access</strong> — Revoke at any time in Settings → Privacy &amp; Security → Photos → Layerly.</li>
-        <li><strong>Delete Your Data</strong> — Deleting the App removes all locally stored data, including any clothing photos.</li>
+        <li><strong>Delete Account (in-app)</strong> — You can delete all your preferences, wardrobe, and outfit history at any time from within the App via Settings → Account → Delete Account. This permanently erases all locally stored data and cannot be undone.</li>
+        <li><strong>Delete the App</strong> — Deleting the App from your device also removes all locally stored data, including any clothing photos.</li>
     </ul>
 
     <h2>8. Changes to This Policy</h2>
